@@ -1,82 +1,80 @@
 body {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.4;
-    margin: 0;
-  }
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-image: url(https://wallpaperaccess.com/full/2677518.jpg);
+  background-size: cover;
   
-  h1 {
-    font-weight: 400;
-    line-height: 1.2;
-  }
-  
-  p {
-    font-size: 1.125rem;
-  }
-  
-  h1,
-  p {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-  }
-  
-  label {
-    display: flex;
-    align-items: center;
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  button {
-    border: none;
-  }
-  
-  .container {
-    width: 100%;
-    margin: 0 auto 0 auto;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  form {
-    background: var(--color-darkblue-alpha);
-    padding: 2.5rem 0.625rem;
-    border-radius: 0.25rem;
-  }
-  
-  .form-control {
-    display: block;
-    width: 100%;
-    height: 2.375rem;
-  
-    color: #495057;
-  
-    background-color: #fff;
-    background-clip: padding-box;
-  
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-  }
-  
-  .input-textarea {
-    min-height: 120px;
-    width: 100%;
-    resize: vertical;
-  }
-  
-  .submit-button {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-  
-    background: var(--color-green);
-    color: inherit;
-  
-    border-radius: 2px;
-    cursor: pointer;
-  }
-  
+  color: white;
+}
+
+/* HEADER */
+h1 {
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h1,
+p {
+  margin: 0 auto 0.6rem auto;
+  user-select: none;
+  text-align: center;
+}
+
+/* FORM */
+label {
+  display: flex;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+
+form {
+  padding: 1rem 0.625rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+
+  color: #495057;
+
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.input-textarea {
+  height: 120px;
+  width: 100%;
+
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* SUBMIT BUTTON */
+#submit {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+
+  background-color: rgb(0, 128, 255);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: medium;
+
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgb(44, 150, 255);
+}
+
+.container {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.829);
+}
